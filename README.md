@@ -40,7 +40,7 @@ Usage
 ====
 
 ```
-usage: __main__.py [-h] [-m {run,convert}] [-i INPUT] [-c COUNTER] [-o OUTPUT] file
+usage: whitefuck [-h] [-m {run,convert}] [-i INPUT] [-c COUNTER] [-o OUTPUT] file
 
 positional arguments:
   file                  File to run
