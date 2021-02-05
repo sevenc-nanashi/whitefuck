@@ -25,14 +25,14 @@ In this doc,
 
 | In whitefuck | In brainfuck | How does it work |
 | ------------ | ------------ | ---------------- | 
-| ss | + | increment (increase by one) the byte at the data pointer. |
-| st | - | decrement (decrease by one) the byte at the data pointer. |
-| ts | > | increment the data pointer (to point to the next cell to the right). |
-|tt | < | decrement the data pointer (to point to the next cell to the left). |
-|sss | . | output the byte at the data pointer. |
-|sst | , |accept one byte of input, storing its value in the byte at the data pointer. |
-|sts | [ | if the byte at the data pointer is zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching ] command. |
-|stt | ] | if the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching [ command. |
+| ssb | + | increment (increase by one) the byte at the data pointer. |
+| stb | - | decrement (decrease by one) the byte at the data pointer. |
+| tsb | > | increment the data pointer (to point to the next cell to the right). |
+| ttb | < | decrement the data pointer (to point to the next cell to the left). |
+| sssb | . | output the byte at the data pointer. |
+| sstb | , |accept one byte of input, storing its value in the byte at the data pointer. |
+| stsb | [ | if the byte at the data pointer is zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching ] command. |
+| sttb | ] | if the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching [ command. |
 
 ***
 
